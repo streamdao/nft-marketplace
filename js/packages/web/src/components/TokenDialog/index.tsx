@@ -222,7 +222,7 @@ function TokenName({ mint }: { mint: PublicKey }) {
         color="textSecondary"
         style={{
           fontSize: '14px',
-          color: '#797A8C',
+          color: '#8A91A2',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
           textOverflow: 'ellipsis',
