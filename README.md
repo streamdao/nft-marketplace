@@ -4,7 +4,7 @@
   </a>
 </p>
 
-Stream NFT marketplace is a protocol built on top of Metaplex and Solana that allows:
+## Stream NFT marketplace is a protocol built on top of Metaplex and Solana that allows:
 
 - **Creating/Minting** Non-Fungible Tokens;
 - **Starting** A variety of auctions for primary/secondary sales;
