@@ -14,7 +14,7 @@ NFT marketplace is comprised of two core components: an on-chain program, and a 
 
 ## Official NFT marketplace Docs and Guide
 
-You can check out our docs at https://docs.streamdao.org/
+You can check out our docs at https://docs.streamdao.org/nft-marketplace/ (under construction)
 
 ## Installing
 
