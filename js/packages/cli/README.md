@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/81876372/133098938-dc2c91a6-1280-4ee1-
 
 ## Documentation
 
-Gettting started and usage instructions can be found at https://docs.metaplex.com/candy-machine-v2/introduction
+Gettting started and usage instructions can be found at https://docs.streamprotocol.org/candy-machine/introduction
 
 ## Settings examples
 
@@ -47,7 +47,7 @@ Want captcha? Add this for gatekeeper value and you are done:
 
 ### Hidden Settings
 
-If you plan to do a mint larger than 20k, consider this option. With this, none of the arweave URIs actually go on Solana. You just provide the following in the config for hiddenSettings:
+If you plan to do a mint larger than 20k, consider this option. With this, none of the Arweave URIs actually go on Solana. You just provide the following in the config for hiddenSettings:
 
 ```
 {
@@ -89,7 +89,7 @@ Stop a mint after a certain amount have sold
 
 Here are some examples to help you construct your settings file.
 
-I want to burn the token each time. This whitelist is ONLY used for presale,
+I want to burn the token each time. This whitelist is ONLY used for pre-sale,
 and once the sale begins, the whitelist gets you nothing.
 
 ```
@@ -103,7 +103,7 @@ and once the sale begins, the whitelist gets you nothing.
 
 ```
 
-I want to burn the token each time. This whitelist is ONLY used for presale, and gives users
+I want to burn the token each time. This whitelist is ONLY used for pre-sale, and gives users
 a 0.5 SOL price tag instead. Once the sale begins, the whitelist gets you only a discount.
 
 ```
@@ -117,7 +117,7 @@ a 0.5 SOL price tag instead. Once the sale begins, the whitelist gets you only a
 
 ```
 
-I do not want to burn the whitelist token - it can be reused. This whitelist is ONLY used for presale, and gives users
+I do not want to burn the whitelist token - it can be reused. This whitelist is ONLY used for pre-sale, and gives users
 a 0.5 SOL price tag instead. Once the sale begins, the whitelist gets you only a discount.
 
 ```
@@ -173,8 +173,8 @@ There are great tools that can make generative art for you. One of the open sour
 ### Example `0.json` File 
 ```json
 {
-  "name": "SolanaArtProject #0",
-  "description": "Generative art on Solana.",
+  "name": "StreamArtProject #0",
+  "description": "Generative art on Stream.",
   "image": "0.jpeg", // This means you should also have a 0.jpeg file in the assets folder
   "animation_url": "0.glb", // This means you should also have a 0.glb file in the assets folder
   "external_url": "https://example.com",
@@ -190,8 +190,8 @@ There are great tools that can make generative art for you. One of the open sour
   ],
   //@deprecated -> do not use - may be removed in a future release
   "collection": {
-    "name": "Solflare X NFT",
-    "family": "Solflare"
+    "name": "Stream X NFT",
+    "family": "Stream"
   },
   "properties": {
     // If you have additional files or CDN files, you can include them here

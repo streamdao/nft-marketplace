@@ -976,7 +976,7 @@ Note because our front end implementation chooses to use SOL instead of a generi
 
 Just because you provide a vault to an AuctionManager and an AuctionManagerSettings declaring this vault is filled with wonderful prizes *does not* believe that Metaplex will believe you. For every safety deposit box indexed in a WinningConfigItem, there must be a call to `validate_safety_deposit_box` after initiation where the safety deposit box is provided for inspection to the Metaplex contract so that it can verify that there are enough tokens, and of the right type, to pay off all winners in the auction.
 
-Given how irritating this process is, we may in the future merge token-vault with metaplex, or simply copy over the parts of it that are relevant, leaving token-vault out for those interested in experimenting with fractionalization.
+Given how irritating this process is, we may in the future merge token-vault with NFT marketplace, or simply copy over the parts of it that are relevant, leaving token-vault out for those interested in experimenting with fractionalization.
 
 ### Unwon Items
 

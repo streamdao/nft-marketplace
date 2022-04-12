@@ -1323,13 +1323,13 @@ const Congrats = (props: {
 
   const newTweetURL = () => {
     const params = {
-      text: "I've created a new NFT artwork on Metaplex, check it out!",
+      text: "I've created a new NFT artwork on Stream NFT marketplace, check it out!",
       url: `${
         window.location.origin
       }/#/art/${props.nft?.metadataAccount.toString()}`,
-      hashtags: 'NFT,Crypto,Metaplex',
-      // via: "Metaplex",
-      related: 'Metaplex,Solana',
+      hashtags: 'NFT,Crypto,Stream',
+      // via: "Stream",
+      related: 'Stream,Solana',
     };
     const queryParams = new URLSearchParams(params).toString();
     return `https://twitter.com/intent/tweet?${queryParams}`;

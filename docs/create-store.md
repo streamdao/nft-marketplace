@@ -1,6 +1,6 @@
 # Create Store
 
-To create a Stream NFT marketplace storefront powered by StreamDAO & Metaplex, you need to create a store on the NFT marketplace platform. This guide will outline
+To create a Stream NFT marketplace storefront powered by StreamDAO/Stream Protocol & Metaplex, you need to create a store on the NFT marketplace platform. This guide will outline
 steps you need to take to create your store. After creating your store, this guide will show you how to manage your
 store information, such as who to whitelist as creators.
 

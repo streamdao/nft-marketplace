@@ -13,17 +13,17 @@ Pay attention to these two lines:
 
 There are 2 things to change:
 
-- specify your repo URL instead of `https://github.com/streamdao/nft-marketplace` (for example, `https://github.com/my-name/my-metaplex`)
-- set `ASSET_PREFIX` to repo name (for example, `ASSET_PREFIX=/my-metaplex/`)
+- specify your repo URL instead of `https://github.com/streamdao/nft-marketplace` (for example, `https://github.com/my-name/my-nft-marketplace`)
+- set `ASSET_PREFIX` to repo name (for example, `ASSET_PREFIX=/my-nft-marketplace/`)
 
 After that, the lines will look like this:
 
 ```json
-"deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/my-name/my-metaplex -t true",
-"deploy": "cross-env ASSET_PREFIX=/my-metaplex/ yarn build && yarn deploy:gh",
+"deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/my-name/my-nft-marketplace -t true",
+"deploy": "cross-env ASSET_PREFIX=/my-nft-marketplace/ yarn build && yarn deploy:gh",
 ```
 
-And after that, you can publish the Metaplex app to GitHub Pages by the following commands:
+And after that, you can publish the NFT marketplace app to GitHub Pages by the following commands:
 
 ```bash
 cd js/packages/web
@@ -39,7 +39,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 If you have a custom domain linked to the GitHub Pages in your repo, then the instructions are the same as above, but your need to remove  `ASSET_PREFIX` from the deploy script:
 
 ```json
-"deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/my-name/my-metaplex -t true"
+"deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/my-name/my-nft-marketplace -t true"
 "deploy": "yarn build && yarn deploy:gh",
 ```
 
@@ -81,7 +81,7 @@ visit [Cloud Run](https://console.cloud.google.com/run)
 1. click create service
 2. setup your service name, like `my nft store`
 3. choose your uploaded image
-4. open adcanced setings
+4. open advanced settings
     1. switch to Variables and keys
     2. add Environment Variables
         1. name: `NODE_ENV`, value: `production`
